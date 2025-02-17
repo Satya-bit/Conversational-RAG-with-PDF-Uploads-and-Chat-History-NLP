@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://Satya-bit:$HF_TOKEN@huggingface.co/spaces/Satya-bit/Conversational-RAG-with-PDF-Uploads-and-Chat-History-NLP main
+        run: git push https://Satya-bit:$HF_TOKEN@huggingface.co/spaces/Satya-bit/CRP main
